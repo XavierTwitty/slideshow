@@ -1,7 +1,8 @@
-import "./App.css";
+import React from "react";
+import BasicSlider from "./components/BasicSlider";
 
-function App() {
-  return <div className="App"></div>;
-}
+const App = () => {
+  return <BasicSlider />;
+};
 
 export default App;
